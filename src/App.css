@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App_Dark {
+  background-color: #000;
+}
+.App{
+
+ 
+  background-color: #FFFFFF;
+}

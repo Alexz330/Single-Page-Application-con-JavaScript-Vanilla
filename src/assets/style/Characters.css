@@ -1,0 +1,128 @@
+.Character{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.Character__container{
+    display: flex; 
+    flex-wrap:wrap ; 
+    margin-top: 20px;
+      
+}
+
+.Character-favorites__container{
+    display: flex; 
+    flex-wrap:wrap ; 
+    margin-top: 20px;
+      
+}
+
+.Character_card__favorites{
+    width: 200px;
+    height: 330px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    margin-left: 50px;
+    margin-bottom: 15px;         
+}
+
+
+.Character_card{
+    width: 200px;
+    height: 350px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    margin-left: 50px;
+    margin-bottom: 15px;         
+}
+
+
+.darkMode{
+    background-color: #121212;
+    color:whitesmoke
+}
+
+.lighMode{
+    background-color: whitesmoke;
+    color: #121212;
+}
+
+
+.over-flow{
+    overflow: hidden;
+}
+
+
+.Character_img:hover{
+    transition: all 0.50s linear;
+    border-radius: 5px 5px 0 0;
+    transform: scale(1.1);
+}
+
+.Character_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    
+}
+
+.Character_info{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+.light-letter{
+    color: #121211;
+}
+
+.dark-letter{
+    color: whitesmoke;
+}
+
+.Input-Seach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    border-radius: 0px 0px 40px 40px;
+}
+.input-dark {
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0px 20px;
+    width: 70%;
+    
+  }
+
+  .input-light {
+    background-color: rgba(255, 255, 255, 0.945);
+    border: 2px solid #121212;
+    border-radius: 25px;
+    color: #121212;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0px 20px;
+    width: 70%;
+    
+  }
+
+
+  
